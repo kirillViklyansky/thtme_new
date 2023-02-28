@@ -18,10 +18,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../foundation_xy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\new theme\assets\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\new theme\assets\scss" />
     </key>
@@ -34,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677570267903</updated>
-      <workItem from="1677570268955" duration="1014000" />
+      <workItem from="1677570268955" duration="3492000" />
     </task>
     <servers />
   </component>

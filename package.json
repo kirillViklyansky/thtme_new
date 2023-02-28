@@ -1,0 +1,13 @@
+{
+
+  "scripts": {
+    "bs": "browser-sync start --config bs-config.js",
+    "watch": "node-sass --watch assets/scss/custom.scss -o assets/css --source-map true --output-style compressed",
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 9",
+    "android >= 4.4",
+    "ios >= 7"
+  ]
+}
