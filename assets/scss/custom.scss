@@ -1,0 +1,21 @@
+@import "footer";
+@import "header";
+@import "archive";
+@import "templates/home";
+
+
+html{
+  height: 100%;
+}
+
+body {
+  position: static !important;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+}
+
+main {
+  display: block;
+}
