@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"../scss/custom.scss",
+		"../scss/_footer.scss",
+		"../scss/_header.scss",
+		"../scss/_archive.scss",
+		"../scss/templates/_home.scss"
+	],
+	"names": [],
+	"mappings": "AGAA,AAAA,IAAI,AAAA,CACH,KAAK,CAAE,GAAG,CACV,AHID,AAAA,IAAI,AAAA,CACF,MAAM,CAAE,IAAI,CACb,AAED,AAAA,IAAI,AAAC,CACH,QAAQ,CAAE,iBAAiB,CAC3B,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,KAAK,CAClB,AAED,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,KAAK,CACf"
+}
