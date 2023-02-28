@@ -4,7 +4,7 @@
   },
   "scripts": {
     "bs": "browser-sync start --config bs-config.js",
-    "watch": "node-sass --watch assets/scss/custom.scss -o assets/css --source-map true --output-style compressed",
+    "watch": "node-sass --watch assets/scss/custom.scss -o assets/css --output-style compact",
     "css-min": "css-minify -f assets/css/custom.css -o assets/css",
     "js-min": "minify assets/js/global.js --out-file assets/js/global.min.js --mangle.keepClassName"
   },
