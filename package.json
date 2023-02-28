@@ -1,13 +1,20 @@
 {
-
+  "dependencies": {
+    "babel-minify": "0.5.2"
+  },
   "scripts": {
     "bs": "browser-sync start --config bs-config.js",
     "watch": "node-sass --watch assets/scss/custom.scss -o assets/css --source-map true --output-style compressed",
+    "css-min": "css-minify -f assets/css/custom.css -o assets/css",
+    "js-min": "minify assets/js/global.js --out-file assets/js/global.min.js --mangle.keepClassName"
   },
   "browserslist": [
     "last 2 versions",
     "ie >= 9",
     "android >= 4.4",
     "ios >= 7"
-  ]
+  ],
+  "devDependencies": {
+    "babel-minify": "^0.5.2"
+  }
 }
