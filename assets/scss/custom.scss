@@ -1,3 +1,6 @@
+// Import Theme Core
+@import "inc/functions";
+
 @import "footer";
 @import "header";
 @import "archive";
@@ -5,17 +8,18 @@
 
 
 html{
-  height: 100%;
+	height: 100%;
 }
 
-body {
-  position: static !important;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  min-height: 100vh;
+body{
+	position: static !important;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	min-height: 100vh;
 }
 
-main {
-  display: block;
+main{
+	display: block;
+	color: var(--main-color-1)
 }
