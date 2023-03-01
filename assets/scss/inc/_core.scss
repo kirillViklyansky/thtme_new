@@ -1,0 +1,43 @@
+// General Styles
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	min-height: 100vh;
+}
+
+// Row
+.rkt-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.rkt-row > div{
+	padding: 0 rem(10);
+}
+
+.rkt-container,
+.rkt-fluid,
+.rkt-custom{
+	margin: 0 auto;
+}
+
+.rkt-container{
+	max-width: var(--rkt-container);
+}
+
+// Image Block
+.rkt-image{
+	width: var(--el-width);
+
+	img{
+		width: 100%;
+		object-fit: none;
+	}
+}

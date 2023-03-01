@@ -1,22 +1,18 @@
 // Import Theme Core
 @import "inc/functions";
+@import "inc/core";
+
 
 @import "footer";
 @import "header";
 @import "archive";
 @import "templates/home";
 
-
 html{
 	height: 100%;
-}
+	font-size: 16px;
 
-body{
-	position: static !important;
-	display: flex;
-	flex-direction: column;
-	height: auto;
-	min-height: 100vh;
+
 }
 
 main{
