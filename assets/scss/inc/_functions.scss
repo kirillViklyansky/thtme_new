@@ -1,5 +1,5 @@
 //=== MIXINS ===//
-@mixin rk-menu(
+@mixin rkt-menu(
 	$color: $black,
 	$color-hover: $dark-gray,
 	$width: 20px,
@@ -78,8 +78,40 @@
 
 }
 
+// Mixin for media queries based on breakpoints
+@mixin breakpoint($point, $type: 'down'){
+	$breakpoints: (
+			small: 640px,
+			medium: 1024px,
+			large: 1440px,
+	);
+	$value: map-get($breakpoints, $point);
+
+	@if $type == 'down'{
+		@media (max-width: $value){
+			@content;
+		}
+	} @else if $type == 'up'{
+		@media (min-width: ($value - 1)){
+			@content;
+		}
+	} @else{
+		@error "Invalid type: #{$type}. Must be 'min' or 'max'.";
+	}
+}
 
 //=== FUNCTIONS ===//
+
+// Remove units
+@function strip-unit($number){
+	@if type-of($number) == 'number' and not unitless($number){
+		@return $number / ($number * 0 + 1);
+	}
+
+	@return $number;
+}
+
+// Calc GAP
 @function gap-calc($columns, $gap){
 	$rem: #{$gap/16}rem;
 	$px: #{$gap}px;
@@ -87,4 +119,18 @@
 	$result: calc(100% / #{$columns} - (#{$rem} / #{$columns} * (#{$columns} - 1)));
 
 	@return $result;
+}
+
+// Covert pixels to vw
+@function vw($val, $base: 1920){
+	$size: strip-unit($val);
+	$vw_value: $size / $base * 100vw;
+	@return $vw_value;
+}
+
+// Convert pixels to rem
+@function rem($size){
+	$remSize: strip-unit($size) / 16;
+
+	@return #{$remSize}rem;
 }
