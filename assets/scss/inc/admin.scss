@@ -1,0 +1,27 @@
+// Theme Logo
+.theme-overlay .screenshot{
+	&:after{
+		content: none;
+	}
+
+	img{
+		position: relative;
+		object-fit: cover;
+		width: auto;
+	}
+}
+
+// ACF Flexible Styles
+.acf-field[data-name="blocks"] .layout{
+	width: 100%;
+	margin: 0;
+	&.-collapsed{
+		width: calc(var(--block-width) - 6.5px);
+	}
+}
+
+.acf-field[data-name="blocks"] .acf-flexible-content .values{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
