@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16f3b4f9-4247-4e04-bee1-934cbf608ca8" name="Default Changelist" comment="" />
+    <list default="true" id="16f3b4f9-4247-4e04-bee1-934cbf608ca8" name="Default Changelist" comment="Merge remote-tracking branch 'origin/rCode' into rCode&#10;&#10;# Conflicts:&#10;#&#9;package.json">
+      <change afterPath="$PROJECT_DIR$/assets/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/inc/admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/RKT-core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/inc/_admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/inc/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/inc/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flexible/text_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/flexible/text_block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,24 +22,130 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="default" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="rCode" />
+                    <option name="lastUsedInstant" value="1677575741" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="default" />
+                    <option name="lastUsedInstant" value="1677575740" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectId" id="2MMGvQ8NrE1aBh8k2rVcnJPJKHE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inc" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Local Sites\ourwptheme\app\public\wp-content\themes\thtme_new\inc" />
       <recent name="D:\new theme\assets\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Local Sites\ourwptheme\app\public\wp-content\themes\thtme_new" />
+      <recent name="C:\Users\user\Local Sites\ourwptheme\app\public\wp-content\themes\thtme_new\assets\scss\inc" />
       <recent name="D:\new theme\assets\scss" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.compile-admin">
+    <configuration name="compile-admin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="compile-admin" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="css-min" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="css-min" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="js-min" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="js-min" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.compile-admin" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.js-min" />
+        <item itemvalue="npm.css-min" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,20 +156,74 @@
       <option name="presentableId" value="Default" />
       <updated>1677570267903</updated>
       <workItem from="1677570268955" duration="3492000" />
+      <workItem from="1677575688670" duration="17800000" />
+      <workItem from="1677653573854" duration="595000" />
+      <workItem from="1677657460596" duration="21978000" />
+      <workItem from="1677831759069" duration="240000" />
+      <workItem from="1678104843889" duration="11448000" />
+      <workItem from="1678175130432" duration="239000" />
     </task>
+    <task id="LOCAL-00001" summary="Test Commit">
+      <created>1677575778303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677575778303</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Theme Update">
+      <created>1677580822747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677580822747</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Theme Update">
+      <created>1677581726457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677581726457</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Theme Update">
+      <created>1677581955852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677581955852</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Theme">
+      <created>1677588398980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677588398980</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/rCode' into rCode&#10;&#10;# Conflicts:&#10;#&#9;package.json">
+      <created>1677593272742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677593272742</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Theme Update">
+      <created>1677685018037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677685018037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1677570910313">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1677570910313" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1677570463513">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.2.1920.1040@0.0.1920.1040" timestamp="1677570463513" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Test Commit" />
+    <MESSAGE value="Update Theme" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/rCode' into rCode&#10;&#10;# Conflicts:&#10;#&#9;package.json" />
+    <MESSAGE value="Theme Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Theme Update" />
   </component>
 </project>
